@@ -57,8 +57,6 @@
 ### Editor Y Propietario Del Bot 🤖
 <a
 href="https://github.com/sebasmpvofficial"><img src="https://github.com/sebasmpvofficial.png" width="200" height="200" alt="Sebastian"/></a>
-<a
-href="https://github.com/sebasmvp"><img src="https://github.com/sebasmvp.png" width="200" height="200" alt="Sebastian"/></a>
 
 
 ## Colaboradores Del Bot ✨️  
