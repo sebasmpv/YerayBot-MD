@@ -13,8 +13,11 @@ global.confirmCode = ""
 
 //• ↳𝑷𝑶𝑵 𝑳𝑶𝑺 𝑵𝑼𝑴𝑬𝑹𝑶𝑺 𝑸𝑼𝑬 𝑸𝑼𝑰𝑬𝑹𝑨𝑺
 global.owner = [
-['593992402778', '👽 𝗖𝗿𝗲𝗮𝗱𝗼𝗿 💥', true]
-];
+['593992402778', '👽 𝗖𝗿𝗲𝗮𝗱𝗼𝗿 💥', true],
+['593986923159', '𝐉𝐨𝐧𝐚𝐭𝐡𝐚𝐧 (𝗢𝘄𝗻𝗲𝗿) 📖', true],
+['593967323759', '𝐈𝐬𝐦𝐚𝐞𝐥 (𝗗𝗲𝘀𝗮𝗿𝗿𝗼𝗹𝗹𝗮𝗱𝗼𝗿)🔍', true],
+['593982981749', '𝐉𝐚𝐫𝐢𝐞𝐥 (𝗦𝘂𝗽𝗽𝗼𝗿𝘁) 💻', true],
+['593969499267', '𝐒𝐭𝐞𝐯𝐞𝐧 (𝗘𝗱𝗶𝘁𝗼𝗿) 💻', true]]
 
 //• ↳𝑨𝑮𝑹𝑬𝑮𝑨𝑻𝑬 𝑺𝑰 𝑬𝑹𝑬𝑺 𝑶𝑾𝑵𝑬𝑹
 global.contactos = [
@@ -22,8 +25,7 @@ global.contactos = [
 ["593986923159", '𝐉𝐨𝐧𝐚𝐭𝐡𝐚𝐧 (𝗢𝘄𝗻𝗲𝗿) 📖', 1],
 ["593967323759", '𝐈𝐬𝐦𝐚𝐞𝐥 (𝗗𝗲𝘀𝗮𝗿𝗿𝗼𝗹𝗹𝗮𝗱𝗼𝗿) 🔍', 1],
 ["593982981749", '𝐉𝐚𝐫𝐢𝐞𝐥 (𝗦𝘂𝗽𝗽𝗼𝗿𝘁) 💻', 1],
-["593969499267", '𝐒𝐭𝐞𝐯𝐞𝐧 (𝗘𝗱𝗶𝘁𝗼𝗿) 💻', 1]
-["5493585753625", 'Alee(𝗘𝗱𝗶𝘁𝗼𝗿) 💻',1]]
+["593969499267", '𝐒𝐭𝐞𝐯𝐞𝐧 (𝗘𝗱𝗶𝘁𝗼𝗿) 💻', 1]]
 
 global.suittag = ['593992402778'];
 global.prems = ['593995004980'];
@@ -57,11 +59,11 @@ global.imagen7 = fs.readFileSync('./AhoraQue.png');
 global.imagen8 = fs.readFileSync('./Que.jpg');
 
 //• ↳ ◜𝑳𝑰𝑵𝑲𝑺◞ • 🌿
-global.gp1 = 'https://chat.whatsapp.com/KeSQTlDCoCL2OMXpJRtmQS' //Grupo Oficial De YerayBot
+global.gp1 = 'https://chat.whatsapp.com/KPZpP0VnlA875UpXCDPc0E' //Grupo Oficial De YerayBot
 
-global.gp2 = 'https://chat.whatsapp.com/KeSQTlDCoCL2OMXpJRtmQS' //Grupo Oficial De YerayBot
+global.gp2 = 'https://chat.whatsapp.com/EBrkzuIFCQfGCD6dfxjEFk' //𝘽 𝘖 𝘛 𝘚 :  𝙈 𝘝 𝘗 🔥🤖
 
-global.gp3 = 'https://chat.whatsapp.com/KeSQTlDCoCL2OMXpJRtmQS' //Yeray Bot-MD✅
+global.gp3 = 'https://chat.whatsapp.com/Djzqsr8k0onE9v1PoSAJwz' //SEBAS BOT-MD✅
 
 global.gp4 = 'https://chat.whatsapp.com/GFJQei0YqQFCaxaGM6wwXW' //SebastianBot - Community 👽💥
 
@@ -69,7 +71,7 @@ global.channel = 'https://whatsapp.com/channel/0029VaWIVax2975INZkaGi0s' //Canal
 
 global.yt = 'https://www.youtube.com/@sebas.mvp_official' //Canal De Youtube
 
-global.ig = 'https://www.instagram.com/yeray_bot_md' //Instagram Oficial
+global.md = 'https://github.com/ale-rmz/YerayBot-MD' //Github Oficial
 
 global.fb = 'https://www.facebook.com/profile.php?id=100091794702798' //Facebook Del Propietario
 
@@ -92,7 +94,7 @@ global.tiempo = d.toLocaleString('en-US', {hour: 'numeric', minute: 'numeric', s
 global.wm2 = `${dia} ${fecha}\nYerayBot`;
 global.gt = 'YerayBot';
 global.mysticbot = 'YerayBot';
-global.mysticbot = 'https://github.com/sebasmpv/YerayBot-MD';
+global.mysticbot = 'https://github.com/ale-rmz/YerayBot-MD';
 global.nomorown = '593992402778';
 global.pdoc = ['application/vnd.openxmlformats-officedocument.presentationml.presentation', 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet', 'application/vnd.openxmlformats-officedocument.wordprocessingml.document', 'application/vnd.ms-excel', 'application/msword', 'application/pdf', 'text/rtf'];
 global.cmenut = '❖––––––『';
