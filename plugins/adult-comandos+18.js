@@ -64,8 +64,7 @@ const handler = async (m, {command, conn}) => {
   }
 
   if (command == 'tetas') {
-    const resError = (await axios.get(`https://raw.githubusercontent.com/BrunoSobrino/TheMystic-Bot-MD/master/src/JSON/tetas.json`)).data;
-    let res = await conn.getFile(`https://api-fgmods.ddns.net/api/nsfw/boobs?apikey=fg-dylux`).data;
+    const resError = (await const resError = (await axios.get(`https://raw.githubusercontent.com/sebasmpv/YerayBot-MD/master/src/JSON/tetas.json`)).data; conn.getFile(`https://api-fgmods.ddns.net/api/nsfw/boobs?apikey=fg-dylux`).data;
     if (res == '' || !res || res == null) res = await resError[Math.floor(resError.length * Math.random())];
     conn.sendMessage(m.chat, {image: {url: res}, caption: `_${command}_`.trim()}, {quoted: m});
   }
