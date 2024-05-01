@@ -33,7 +33,7 @@ const handler = async (m, { conn, usedPrefix }) => {
 │➸ 𝐂𝐡𝐚𝐭𝐬 𝐆𝐫𝐮𝐩𝐨𝐬: *${groups.length}* 
 │➸ 𝐂𝐡𝐚𝐭 𝐓𝐨𝐭𝐚𝐥: *${chats.length}* 
 │━━━━━━━━━━━━━━━━━━━
-│➸ 𝙆𝙞𝙢𝘽𝙤𝙩-𝙈𝘿
+│➸ 𝙆𝙞𝙢𝘽𝙤𝙩-𝙈𝘿❤️‍🩹
 ╰━━━━━━･❪ ❁ ❫ ･━━━━━━━━❖`.trim();
   const doc = [
     "pdf",
@@ -46,7 +46,7 @@ const handler = async (m, { conn, usedPrefix }) => {
   const Message = {
     document: { url: `https://www.instagram.com/yeray_bot_md?igsh=MTZwNGt5YXBuaWFydQ==` },
     mimetype: `application/${document}`,
-    fileName: `𝙔𝙚𝙧𝙖𝙮 𝘽𝙤𝙩🌸`,
+    fileName: `𝙆𝙞𝙢 𝘽𝙤𝙩❤️‍🩹`,
     fileLength: 99999999999999,
     pageCount: 200,
     contextInfo: {
@@ -56,7 +56,7 @@ const handler = async (m, { conn, usedPrefix }) => {
         mediaUrl: "https://www.instagram.com/yeray_bot_md?igsh=MTZwNGt5YXBuaWFydQ==",
         mediaType: 2,
         previewType: "pdf",
-        title: "Tᴜ Mᴇᴊᴏʀ Bᴏᴛ!",
+        title: "Sᴏʏ Lᴀ Mᴇᴊᴏʀ Bᴏᴛ!",
         body: wm,
         thumbnail: imagen6,
         sourceUrl: "https://atom.bio/sebas_official",
