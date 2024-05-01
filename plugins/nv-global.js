@@ -209,7 +209,7 @@ handler.all = async function(m, {conn}) {
 
 }
 
-  if (!chat.isBanned && m.text.match(/(Pedro|Pedro pedro|)/gi)) {
+  if (!chat.isBanned && m.text.match(/(Pedro|Pedro pedro|pedroo|pedro)/gi)) {
     if (!db.data.chats[m.chat].audios) return;
     if (!db.data.settings[this.user.jid].audios_bot && !m.isGroup) return;
     const vn = './media/Pedro.mp3';
