@@ -62,7 +62,15 @@ handler.all = async function(m, {conn}) {
     mconn.conn.sendPresenceUpdate('recording', m.chat);
     mconn.conn.sendMessage(m.chat, {audio: {url: vn}, fileName: 'error.mp3', mimetype: 'audio/mpeg', ptt: true}, {quoted: m});
   }
-
+  
+if (!chat.isBanned && m.text.match(/(troll|Troll)/gi)) {
+    if (!db.data.chats[m.chat].audios) return;
+    if (!db.data.settings[this.user.jid].audios_bot && !m.isGroup) return;
+    const vn = './media/troll.mp3';
+    mconn.conn.sendPresenceUpdate('recording', m.chat);
+    mconn.conn.sendMessage(m.chat, {audio: {url: vn}, fileName: 'error.mp3', mimetype: 'audio/mpeg', ptt: true}, {quoted: m});
+  }
+  
   if (!chat.isBanned && m.text.match(/(baneado|Baneado)/gi)) {
     if (!db.data.chats[m.chat].audios) return;
     if (!db.data.settings[this.user.jid].audios_bot && !m.isGroup) return;
