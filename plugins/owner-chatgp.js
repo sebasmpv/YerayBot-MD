@@ -10,7 +10,7 @@ const handler = async (m, {conn, text, groupMetadata}) => {
     return !0;
   }
   if (!m.isGroup) return !1;
-  if (!text) throw '*_⚠ • ️Ingrese un -texto- para enviar un mensaje a todos los grupos._*';
+  if (!text) throw '⚠️ 𝙄𝙉𝙂𝙍𝙀𝙎𝙀 𝙐𝙉 𝙐𝙉 𝙏𝙀𝙓𝙏𝙊 𝙋𝘼𝙍𝘼 𝙀𝙉𝙑𝙄𝘼𝙍 𝘼 𝙏𝙊𝘿𝙊𝙎 𝙇𝙊𝙎 𝙂𝙍𝙐𝙋𝙊𝙎';
   const linkThisGroup = `${link}`;
   if (m.text.includes(linkThisGroup)) return conn.reply(m.chat, '❌ 𝙉𝙊 𝙋𝙐𝙀𝘿𝙀𝙎 𝙎𝙋𝘼𝙈𝙀𝘼𝙍 𝘼 𝙊𝙏𝙍𝙊𝙎 𝙂𝙍𝙐𝙋𝙊𝙎', m);
   const time = global.db.data.users[m.sender].msgwait + 300000;
