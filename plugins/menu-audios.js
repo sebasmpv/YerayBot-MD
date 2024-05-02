@@ -41,6 +41,7 @@ const document = doc[Math.floor(Math.random() * doc.length)];
 ┃ 🔊 _Buenos dias_
 ┃ 🔊 _Buenas tardes_
 ┃ 🔊 _Buenas noches_
+┃ 🔊 _Bye Bye_
 ┃ 🔊 _Audio hentai_
 ┃ 🔊 _Chica lgante_
 ┃ 🔊 _Feliz navidad_
