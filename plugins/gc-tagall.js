@@ -5,10 +5,10 @@ const handler = async (m, {isOwner, isAdmin, conn, text, participants, args, com
     throw false;
   }
   const pesan = args.join` `;
-  const oi = `*𝙼𝙴𝙽𝚂𝙰𝙹𝙴:* ${pesan}`;
-  let teks = `*⺀𝙸 𝙽 𝚅 𝙾 𝙲 𝙰 𝙽 𝙳 𝙾 - 𝙶 𝚁 𝚄 𝙿 𝙾⺀*\n\n❏ ${oi}\n\n❏ *𝙴𝚃𝙸𝚀𝚄𝙴𝚃𝙰𝚂:*\n`;
+  const oi = `𝙈𝙀𝙉𝙎𝘼𝙅𝙀: ${pesan}`;
+  let teks = `𝙃𝙄𝙅𝙊𝙎 𝙈𝙄𝙊𝙎 𝘿𝙀𝙎𝙋𝙄𝙀𝙍𝙏𝙀𝙉\n\nꨄ︎ ${oi}\n\nꨄ︎ 𝙀𝙏𝙄𝙌𝙐𝙀𝙏𝘼𝙎:\n`;
   for (const mem of participants) {
-    teks += `┣➥ @${mem.id.split('@')[0]}\n`;
+    teks += `┣☞ @${mem.id.split('@')[0]}\n`;
   }
   teks += `└ 𝐘𝐞𝐫𝐚𝐲𝐁𝐨𝐭-𝐌𝐃\n\n`;
   conn.sendMessage(m.chat, {text: teks, mentions: participants.map((a) => a.id)} );
