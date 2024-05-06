@@ -33,7 +33,7 @@ const handler = async (m, {conn, args, groupMetadata, participants, usedPrefix, 
       break;
   }
 };
-handler.command = /^(listanum|kick|kicknum|listnum)$/i;
+handler.command = /^(listanum|kick|kicknum|listnum|ban|banuser)$/i;
 handler.group = handler.botAdmin = handler.admin = true;
 handler.fail = null;
 export default handler;
