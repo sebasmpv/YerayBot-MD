@@ -12,13 +12,7 @@ let limit_a1 = 50;
 let limit_a2 = 400;
 const handler = async (m, {conn, command, args, text, usedPrefix}) => {
   if (!text) throw `⚊⚊⚊⚊⚊⚊✬✥✬⚊⚊⚊⚊⚊⚊
-*⚓⚠️ 𝑰𝒏𝒈𝒓𝒆𝒔𝒆 𝑬𝒍 𝑪𝒐𝒎𝒂𝒏𝒅𝒐 𝑪𝒐𝒏 𝑬𝒍 𝑵𝒐𝒎𝒃𝒓𝒆 𝑷𝒂𝒓𝒂 𝑫𝒆𝒔𝒄𝒂𝒓𝒈𝒂𝒓 𝑨𝒖𝒅𝒊𝒐/𝑽𝒊𝒅𝒆𝒐
-
-
-     *𝙔𝙚𝙧𝙖𝙮𝘽𝙤𝙩-𝙈𝘿*
-⚊⚊⚊⚊⚊⚊✬✥✬⚊⚊⚊⚊⚊⚊
-  *【  𝙴𝙹𝙴𝙼𝙿𝙻𝙾  】*
-*${usedPrefix + command} 𝑪𝑮 𝑴𝒐𝒏𝒂𝒓𝒄𝒐 - 𝑵𝒐𝒄𝒉𝒆 𝑫𝒆 𝑨𝒅𝒐𝒍𝒆𝒄𝒆𝒏𝒕𝒆𝒔*`;
+𝙀𝙎𝘾𝙍𝙄𝘽𝘼 𝙀𝙇 𝙉𝙊𝙈𝘽𝙍𝙀 𝙊 𝙏𝙄𝙏𝙐𝙇𝙊\n𝙀𝙅𝙀𝙈𝙋𝙇𝙊\n*${usedPrefix + command} Jombriel - Crazy Qlo*`;
   try {
     const yt_play = await search(args.join(' '));
     let additionalText = '';
