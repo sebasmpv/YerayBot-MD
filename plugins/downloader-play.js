@@ -33,7 +33,7 @@ additionalText = '𝙑𝙄𝘿𝙀𝙊 🎥'}
 
 » 𝙐𝙍𝙇 : ${yt_play[0].url}
 
-» *_ENVIANDO ${additionalText} AGUARDE UN MOMENTO_*`.trim();
+» ENVIANDO ${additionalText} AGUARDE UN MOMENTO`.trim();
         conn.sendMessage(m.chat, {image: {url: yt_play[0].thumbnail}, caption: texto1}, {quoted: m});
     if (command == 'play') {
     try {    
