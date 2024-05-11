@@ -14,38 +14,26 @@ const handler = async (m, {conn, command, args, text, usedPrefix}) => {
   if (!text) throw `⚊⚊⚊⚊⚊⚊✬✥✬⚊⚊⚊⚊⚊⚊
 𝙀𝙎𝘾𝙍𝙄𝘽𝘼 𝙀𝙇 𝙉𝙊𝙈𝘽𝙍𝙀 𝙊 𝙏𝙄𝙏𝙐𝙇𝙊\n𝙀𝙅𝙀𝙈𝙋𝙇𝙊\n*${usedPrefix + command} Jombriel - Crazy Qlo*`;
   try {
-    const yt_play = await search(args.join(' '));
-    let additionalText = '';
-    if (command === 'play') {
-      additionalText = 'audio 🔊';
-    } else if (command === 'play2') {
-      additionalText = 'video 🎥';
+const yt_play = await search(args.join(" "))
+let additionalText = ''
+if (command === 'play') {
+additionalText = '𝘼𝙐𝘿𝙄𝙊 🎧'
+} else if (command === 'play2') {
+additionalText = '𝙑𝙄𝘿𝙀𝙊 🎥'}
     }
     await conn.sendMessage(m.chat, { react: { text: '🌟', key: m.key } })
-    const texto1 = `▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂
+    const texto1 = `let captionvid = 
+`» 𝙏𝙄𝙏𝙐𝙇𝙊 : ${yt_play[0].title}
 
-              *𝙔𝙚𝙧𝙖𝙮𝘽𝙤𝙩-𝙈𝘿*
-              
-  ▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂
-> •➤ 🛡️ 𝙏𝙄𝙏𝙐𝙇𝙊:
-> 📌 ${yt_play[0].title}
-> ▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂
-> •➤ 🎥 𝙋𝙐𝘽𝙇𝙄𝘾𝘼𝘿𝙊 𝙀𝙉: 
-> 📅 ${yt_play[0].ago}
-> ▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂
-> •➤ 🔍 𝙀𝙉𝙇𝘼𝘾𝙀:
-> 📎 ${yt_play[0].url}
-> ▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂
-> •➤ 🥷🏼 𝘼𝙐𝙏𝙊𝙍:
-> 📍 ${yt_play[0].author.name}
-> ▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂
-> •➤ 💫 𝘾𝘼𝙉𝘼𝙇:
-> 🌟 ${yt_play[0].author.url}
-> ▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂
-> •➤ ⏱️ 𝘿𝙐𝙍𝘼𝘾𝙄𝙊𝙉:
-> 💣 ${secondString(yt_play[0].duration.seconds)}
-> ▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂
-> *_Enviando ${additionalText}, Aguarde Un Momento..._*`.trim();
+» 𝙋𝙐𝘽𝙇𝙄𝘾𝘼𝘿𝙊 : ${yt_play[0].ago}
+
+» 𝘿𝙐𝙍𝘼𝘾𝙄𝙊𝙉 : ${secondString(yt_play[0].duration.seconds)}
+
+» 𝙑𝙄𝙎𝙏𝘼𝙎 : ${MilesNumber(yt_play[0].views)}
+
+» 𝙐𝙍𝙇 : ${yt_play[0].url}
+
+» 𝙀𝙉𝙑𝙄𝘼𝙉𝘿𝙊 ${additionalText} 𝘼𝙂𝙐𝘼𝙍𝘿𝙀 𝙐𝙉 𝙈𝙊𝙈𝙀𝙉𝙏𝙊`.trim();
         conn.sendMessage(m.chat, {image: {url: yt_play[0].thumbnail}, caption: texto1}, {quoted: m});
     if (command == 'play') {
     try {    
