@@ -27,9 +27,9 @@ additionalText = '𝙑𝙄𝘿𝙀𝙊 🎥'}
 
 » 𝙋𝙐𝘽𝙇𝙄𝘾𝘼𝘿𝙊 : ${yt_play[0].ago}
 
-» 𝘿𝙐𝙍𝘼𝘾𝙄𝙊𝙉 : ${secondString(yt_play[0].duration.seconds)}
+» 𝘿𝙐𝙍𝘼𝘾𝙄𝙊𝙉 : ${(yt_play[0].duration.seconds)}
 
-» 𝙑𝙄𝙎𝙏𝘼𝙎 : ${MilesNumber(yt_play[0].views)}
+» 𝙑𝙄𝙎𝙏𝘼𝙎 : ${(yt_play[0].views)}
 
 » 𝙐𝙍𝙇 : ${yt_play[0].url}
 
